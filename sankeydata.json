@@ -1,0 +1,566 @@
+{
+  "links": [
+    {
+      "source": 0,
+      "target": 10,
+      "value": 0
+    },
+    {
+      "source": 1,
+      "target": 10,
+      "value": 0
+    },
+    {
+      "source": 2,
+      "target": 10,
+      "value": 3351
+    },
+    {
+      "source": 7,
+      "target": 10,
+      "value": 3
+    },
+    {
+      "source": 3,
+      "target": 10,
+      "value": 0
+    },
+    {
+      "source": 5,
+      "target": 10,
+      "value": 0
+    },
+    {
+      "source": 6,
+      "target": 10,
+      "value": 0
+    },
+    {
+      "source": 4,
+      "target": 10,
+      "value": 0
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "value": 0
+    },
+    {
+      "source": 8,
+      "target": 10,
+      "value": 0
+    },
+    {
+      "source": 2,
+      "target": 11,
+      "value": 0
+    },
+    {
+      "source": 0,
+      "target": 11,
+      "value": 0
+    },
+    {
+      "source": 1,
+      "target": 11,
+      "value": 0
+    },
+    {
+      "source": 9,
+      "target": 11,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 11,
+      "value": 0
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "value": 0
+    },
+    {
+      "source": 6,
+      "target": 11,
+      "value": 0
+    },
+    {
+      "source": 4,
+      "target": 11,
+      "value": 1
+    },
+    {
+      "source": 8,
+      "target": 11,
+      "value": 0
+    },
+    {
+      "source": 7,
+      "target": 11,
+      "value": 0
+    },
+    {
+      "source": 3,
+      "target": 12,
+      "value": 0
+    },
+    {
+      "source": 2,
+      "target": 12,
+      "value": 0
+    },
+    {
+      "source": 7,
+      "target": 12,
+      "value": 0
+    },
+    {
+      "source": 5,
+      "target": 12,
+      "value": 0
+    },
+    {
+      "source": 6,
+      "target": 12,
+      "value": 0
+    },
+    {
+      "source": 0,
+      "target": 12,
+      "value": 0
+    },
+    {
+      "source": 9,
+      "target": 12,
+      "value": 0
+    },
+    {
+      "source": 1,
+      "target": 12,
+      "value": 0
+    },
+    {
+      "source": 8,
+      "target": 12,
+      "value": 0
+    },
+    {
+      "source": 4,
+      "target": 12,
+      "value": 2
+    },
+    {
+      "source": 9,
+      "target": 13,
+      "value": 0
+    },
+    {
+      "source": 7,
+      "target": 13,
+      "value": 0
+    },
+    {
+      "source": 2,
+      "target": 13,
+      "value": 0
+    },
+    {
+      "source": 0,
+      "target": 13,
+      "value": 0
+    },
+    {
+      "source": 5,
+      "target": 13,
+      "value": 1980
+    },
+    {
+      "source": 4,
+      "target": 13,
+      "value": 4260
+    },
+    {
+      "source": 8,
+      "target": 13,
+      "value": 0
+    },
+    {
+      "source": 3,
+      "target": 13,
+      "value": 0
+    },
+    {
+      "source": 6,
+      "target": 13,
+      "value": 0
+    },
+    {
+      "source": 1,
+      "target": 13,
+      "value": 0
+    },
+    {
+      "source": 0,
+      "target": 14,
+      "value": 0
+    },
+    {
+      "source": 6,
+      "target": 14,
+      "value": 0
+    },
+    {
+      "source": 4,
+      "target": 14,
+      "value": 0
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "value": 0
+    },
+    {
+      "source": 2,
+      "target": 14,
+      "value": 0
+    },
+    {
+      "source": 9,
+      "target": 14,
+      "value": 0
+    },
+    {
+      "source": 8,
+      "target": 14,
+      "value": 1
+    },
+    {
+      "source": 5,
+      "target": 14,
+      "value": 0
+    },
+    {
+      "source": 3,
+      "target": 14,
+      "value": 2
+    },
+    {
+      "source": 7,
+      "target": 14,
+      "value": 0
+    },
+    {
+      "source": 2,
+      "target": 15,
+      "value": 0
+    },
+    {
+      "source": 4,
+      "target": 15,
+      "value": 0
+    },
+    {
+      "source": 6,
+      "target": 15,
+      "value": 0
+    },
+    {
+      "source": 3,
+      "target": 15,
+      "value": 0
+    },
+    {
+      "source": 1,
+      "target": 15,
+      "value": 0
+    },
+    {
+      "source": 7,
+      "target": 15,
+      "value": 2478
+    },
+    {
+      "source": 9,
+      "target": 15,
+      "value": 0
+    },
+    {
+      "source": 5,
+      "target": 15,
+      "value": 0
+    },
+    {
+      "source": 0,
+      "target": 15,
+      "value": 0
+    },
+    {
+      "source": 8,
+      "target": 15,
+      "value": 4550
+    },
+    {
+      "source": 1,
+      "target": 16,
+      "value": 0
+    },
+    {
+      "source": 6,
+      "target": 16,
+      "value": 2
+    },
+    {
+      "source": 2,
+      "target": 16,
+      "value": 0
+    },
+    {
+      "source": 5,
+      "target": 16,
+      "value": 0
+    },
+    {
+      "source": 0,
+      "target": 16,
+      "value": 0
+    },
+    {
+      "source": 7,
+      "target": 16,
+      "value": 0
+    },
+    {
+      "source": 9,
+      "target": 16,
+      "value": 6574
+    },
+    {
+      "source": 8,
+      "target": 16,
+      "value": 0
+    },
+    {
+      "source": 4,
+      "target": 16,
+      "value": 0
+    },
+    {
+      "source": 3,
+      "target": 16,
+      "value": 0
+    },
+    {
+      "source": 5,
+      "target": 17,
+      "value": 0
+    },
+    {
+      "source": 1,
+      "target": 17,
+      "value": 0
+    },
+    {
+      "source": 4,
+      "target": 17,
+      "value": 10
+    },
+    {
+      "source": 3,
+      "target": 17,
+      "value": 0
+    },
+    {
+      "source": 7,
+      "target": 17,
+      "value": 0
+    },
+    {
+      "source": 0,
+      "target": 17,
+      "value": 0
+    },
+    {
+      "source": 8,
+      "target": 17,
+      "value": 0
+    },
+    {
+      "source": 6,
+      "target": 17,
+      "value": 2412
+    },
+    {
+      "source": 2,
+      "target": 17,
+      "value": 0
+    },
+    {
+      "source": 9,
+      "target": 17,
+      "value": 0
+    },
+    {
+      "source": 1,
+      "target": 18,
+      "value": 2077
+    },
+    {
+      "source": 0,
+      "target": 18,
+      "value": 2683
+    },
+    {
+      "source": 4,
+      "target": 18,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 18,
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 18,
+      "value": 0
+    },
+    {
+      "source": 8,
+      "target": 18,
+      "value": 0
+    },
+    {
+      "source": 2,
+      "target": 18,
+      "value": 0
+    },
+    {
+      "source": 6,
+      "target": 18,
+      "value": 0
+    },
+    {
+      "source": 5,
+      "target": 18,
+      "value": 0
+    },
+    {
+      "source": 9,
+      "target": 18,
+      "value": 0
+    },
+    {
+      "source": 1,
+      "target": 19,
+      "value": 0
+    },
+    {
+      "source": 0,
+      "target": 19,
+      "value": 0
+    },
+    {
+      "source": 5,
+      "target": 19,
+      "value": 172
+    },
+    {
+      "source": 3,
+      "target": 19,
+      "value": 2666
+    },
+    {
+      "source": 4,
+      "target": 19,
+      "value": 13
+    },
+    {
+      "source": 6,
+      "target": 19,
+      "value": 0
+    },
+    {
+      "source": 2,
+      "target": 19,
+      "value": 0
+    },
+    {
+      "source": 7,
+      "target": 19,
+      "value": 0
+    },
+    {
+      "source": 8,
+      "target": 19,
+      "value": 0
+    },
+    {
+      "source": 9,
+      "target": 19,
+      "value": 0
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Al-Shabaab"
+    },
+    {
+      "name": "Boko Haram"
+    },
+    {
+      "name": "Farabundo Marti National Liberation Front (FMLN)"
+    },
+    {
+      "name": "Irish Republican Army (IRA)"
+    },
+    {
+      "name": "Islamic State of Iraq and the Levant (ISIL)"
+    },
+    {
+      "name": "Kurdistan Workers' Party (PKK)"
+    },
+    {
+      "name": "New People's Army (NPA)"
+    },
+    {
+      "name": "Revolutionary Armed Forces of Colombia (FARC)"
+    },
+    {
+      "name": "Shining Path (SL)"
+    },
+    {
+      "name": "Taliban"
+    },
+    {
+      "name": "Central America & Caribbean"
+    },
+    {
+      "name": "Central Asia"
+    },
+    {
+      "name": "Eastern Europe"
+    },
+    {
+      "name": "Middle East & North Africa"
+    },
+    {
+      "name": "North America"
+    },
+    {
+      "name": "South America"
+    },
+    {
+      "name": "South Asia"
+    },
+    {
+      "name": "Southeast Asia"
+    },
+    {
+      "name": "Sub-Saharan Africa"
+    },
+    {
+      "name": "Western Europe"
+    }
+  ]
+}

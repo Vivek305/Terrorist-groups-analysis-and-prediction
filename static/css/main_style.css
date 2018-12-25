@@ -1,0 +1,26 @@
+.row{
+	background-color: #E5E8E8;
+
+}
+
+.col-sm-6{
+	
+}
+
+.chart-title{
+	font-size: 16px;
+	font-weight: bold;
+	color: #5499C7;
+	background-color: #E5E8E8;
+}
+
+.dc-chart{
+	font-size: 22px;
+	color: #C0392B;
+	font-weight: bold
+}
+
+#attack-type-row-chart{
+	color: black;
+	fill: black;
+}

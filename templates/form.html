@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="{{url_for('static', filename='lib/css/barchart.css')}}">
+    <style>
+
+
+.form-style-5 input[type="text"],
+
+.form-style-5 textarea,
+.form-style-5 select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 5px;
+    outline: 0;
+    padding: 7px;
+    width: 60%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+
+}
+.form-style-5 input[type="text"]:focus,
+
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+    background: #d2d9dd;
+}
+.form-style-5 select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 20%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+    background: #109177;
+}
+
+    </style>
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css'>
+</head>
+<body style="margin:20px;" class="container">
+  <h2>Terrorist Group prediction behind attack</h2>
+  <p>Terrorist attacks are the challenging issue across the world and need the attention of the practitioners to cope up deliberately.
+    Predicting the responsible group of an event is a complicated task due to the lack of in depth terrorist historical data.
+    The classification model here predicts terrorist group after taking Attack type, Weapon type, Target type and Country of attack
+    of current year.</p>
+  <div class="form-style-5">
+<form action = "/formdata" method="get" autocomplete="off">
+
+  <ul>
+<p>Year :  <span style="font-size:22px;color:#3498DB"><b>2018</b></span></p>
+  <div class="autocomplete" style="width:500px;">
+    <input id="myInput" type="text" name="myCountry" placeholder="Country">
+  </div>
+<li>
+
+    <select name="attacktype" style="width: 250px;">
+      <option selected disabled>Attack Type</option>
+      <option value="Assassination">Assassination</option>
+      <option value="Hostage Taking (Kidnapping)">Hostage Taking (Kidnapping)</option>
+      <option value="Bombing/Explosion">Bombing/Explosion</option>
+      <option value="Facility/Infrastructure Attack">Facility/Infrastructure Attack</option>
+      <option value="Armed Assault">Armed Assault</option>
+      <option value="Hijacking">Hijacking</option>
+      <option value="Unarmed Assault">Unarmed Assault</option>
+      <option value="Hostage Taking (Barricade Incident)">Hostage Taking (Barricade Incident)</option>
+    </select>
+
+    <select name="targtype" style="width: 250px;">
+      <option selected disabled>Target Type</option>
+      <option value="Abortion Related">Abortion Related</option>
+      <option value="Airports & Aircraft">Airports&Aircraft</option>
+      <option value="Business">Business</option>
+      <option value="Educational Institution">Educational Institution</option>
+      <option value="Food or Water Supply">Food or Water Supply</option>
+      <option value="Government (Diplomatic)">Government (Diplomatic)</option>
+      <option value="Government (General)">Government (General)</option>
+      <option value="Journalists & Media">Journalists & Media</option>
+      <option value="Maritime">Maritime</option>
+      <option value="Military">Military</option>
+      <option value="NGO">NGO</option>
+      <option value="Other">Other</option>
+      <option value="Police">Police</option>
+      <option value="Private Citizens & Property">Private Citizens & Property</option>
+      <option value="Religious Figures/Institutions">Religious Figures/Institutions</option>
+      <option value="Telecommuncation">Telecommuncation</option>
+      <option value="Terrorists/Non-State Militia">Terrorists/Non-State Militia</option>
+      <option value="Tourists">Tourists</option>
+      <option value="Transportation">Transportation</option>
+      <option value="Utilities">Utilities</option>
+      <option value="Violant Political Party">Violant Political Party</option>
+
+    </select>
+
+    <select name="weaptype" style="width: 250px;">
+      <option selected disabled>Weapon Type</option>
+      <option value="Biological">Biological</option>
+      <option value="Chemical">Chemical</option>
+      <option value="Explosives/Bombs/Dynamite">Explosives/Bombs/Dynamite</option>
+      <option value="Fake Weapons">Fake Weapons</option>
+      <option value="Firearms">Firearms</option>
+      <option value="Incendiary">Incendiary</option>
+      <option value="Melee">Melee</option>
+      <option value="Other">Other</option>
+      <option value="Radiological">Radiological</option>
+      <option value="Sabotage Equipment">Sabotage Equipment</option>
+      <option value="Vehicle (not to include vehicle-borne explosives, i.e., car or truck bombs)">Vehicle (not to include vehicle-borne explosives, i.e., car or truck bombs)</option>
+    </select>
+</li>
+    <input type="submit" value="Predict">
+  </ul>
+</form>
+</div>
+
+<!--{% if result %}
+<textarea cols="50" rows="4" name="result">{{ result }}</textarea>
+{% endif %}
+{% if result1 %}
+<p name="result1">{{ result1 }}</p>
+{% endif %}
+{% if groupname %}
+<p name="myCountry">{{ groupname }}</p>
+{% endif %}-->
+
+
+<script src="https://d3js.org/d3.v4.min.js" charset="utf-8" type="text/javascript"></script>
+{% if vis %}
+<p>Please enter the attack details into form to predict the group behind the attack.</p>
+{% else %}
+<div>
+  <p style="font-size:16px">For the given information about attack in year 2018, terrorist group that could be behind the attack is <b>{{groupname}}.</b>
+  Below chart shows the total terrorist attacks are ploted over the past five years by the group.</p>
+
+  <script type=text/javascript src="{{url_for('static', filename='lib/js/d3-tip.js')}}"></script>
+  <script type=text/javascript src="{{url_for('static', filename='lib/js/groupbarchart.js')}}"></script>
+</div>
+{% endif %}
+
+<script type=text/javascript src="{{url_for('static', filename='lib/js/autocomplete.js')}}"></script>
+</body>
+</html>
